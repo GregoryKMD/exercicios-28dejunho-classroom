@@ -1,0 +1,41 @@
+import java.util. *;
+classe LinkedListExample
+{
+    public static void main (String [] args) 
+    {
+        LinkedList <String> list = nova LinkedList <String> ();
+        Entrada do scanner = novo Scanner (System.in);
+        System.out.print ("quantos elementos você deseja adicionar:");
+        int num = input.nextInt ();
+        para (int i = 0; i <num; i ++) {
+            System.out.print ("Adicionar elemento:");
+            Elemento String = input.next ();
+            list.add (elemento);
+        }
+        System.out.println ();
+        System.out.println ("Os elementos LinkedList são:");
+        para (int i = 0; i <list.size (); i ++) {
+         System.out.println (list.get (i));
+        }
+    }
+}
+
+//OUTRO EXEMPLO
+
+public void ImprimeLista() {
+
+  if (this.size == 0) {
+    System.out.println("Lista vazia.");
+  } else {
+
+    DListNode no;
+    no = this.head.next;
+    
+    while (no != this.head) {
+      System.out.println(no.item);
+      no = no.next;
+    }
+
+  }
+
+}
